@@ -1,14 +1,10 @@
-import styled from "styled-components";
+import { Box } from '~/styles/shared/Box'
 
-export default function Index() {
+export default function IndexRoute() {
   return (
-    <Box style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix (using styled components)</h1>
+    <Box>
+      <h1>Welcome to my Ecommerce</h1>
+      <button>hello world</button>
     </Box>
-  );
+  )
 }
-
-export const Box = styled.div`
-  background: #000;
-  color: #fff;
-`;
